@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jetpack Compose Geliştirme Kursu</string>
+    <string name="title_activity_ilham_ver_uygulama">IlhamVerUygulama</string>
+    <string name="title_activity_login_uygulama">LoginUygulama</string>
+    <string name="title_activity_yemek_tarif_uygulamasi">YemekTarifUygulamasi</string>
+    <string name="title_activity_page_structure">PageStructureActivity</string>
+    <string name="title_activity_material_compose">MaterialComposeActivity</string>
+    <string name="title_activity_guess_number_game">GuessNumberGameActivity</string>
+</resources>
