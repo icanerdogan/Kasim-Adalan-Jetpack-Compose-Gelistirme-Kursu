@@ -13,10 +13,10 @@
         android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"
         tools:targetApi="31">
         <activity
-            android:name=".widget.GuessNumberGameActivity"
+            android:name=".material.ComposeTopBarActivity"
             android:exported="true"
-            android:label="@string/title_activity_guess_number_game"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
+            android:label="@string/title_activity_compose_material"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,11 +24,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".widget.GuessNumberGameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_guess_number_game"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
+        </activity>
+        <activity
             android:name=".widget.MaterialComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_material_compose"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
-        </activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"></activity>
         <activity
             android:name=".structure.PageStructureActivity"
             android:exported="false"
@@ -53,7 +58,7 @@
             android:name=".design.MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"></activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
     </application>
 
 </manifest>
