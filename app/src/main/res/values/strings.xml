@@ -7,4 +7,7 @@
     <string name="title_activity_material_compose">MaterialComposeActivity</string>
     <string name="title_activity_guess_number_game">GuessNumberGameActivity</string>
     <string name="title_activity_compose_material">ComposeMaterialActivity</string>
+    <string name="title_activity_card_example">CardExampleActivity</string>
+    <string name="title_activity_lazy_structure">LazyStructureActivity</string>
+    <string name="title_activity_food_app">FoodAppActivity</string>
 </resources>
