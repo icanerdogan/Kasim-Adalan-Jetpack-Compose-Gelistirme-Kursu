@@ -70,4 +70,6 @@ dependencies {
     // Gson for Object Data Transfer between pages
     implementation libs.gson
 
+    // LiveData
+    implementation libs.androidx.runtime.livedata
 }
