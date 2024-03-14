@@ -12,4 +12,5 @@
     <string name="title_activity_food_app">FoodAppActivity</string>
     <string name="title_activity_example_mvvmactivity">ExampleMVVMActivity</string>
     <string name="title_activity_data_store">DataStoreActivity</string>
+    <string name="title_activity_room_example">RoomExampleActivity</string>
 </resources>

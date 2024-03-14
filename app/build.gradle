@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id 'androidx.room'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -18,6 +20,9 @@ android {
         vectorDrawables {
             useSupportLibrary true
         }
+    }
+    room {
+        schemaDirectory "$projectDir/schemas"
     }
 
     buildTypes {
@@ -79,6 +84,12 @@ dependencies {
     // Coroutines
     implementation libs.kotlinx.coroutines.android
     implementation libs.kotlinx.coroutines.core
+
+    // Room
+    implementation "androidx.room:room-runtime:2.6.1"
+    annotationProcessor libs.androidx.room.compiler
+    // To use Kotlin annotation processing tool (kapt)
+    kapt "androidx.room:room-compiler:2.6.1"
 
     // Lifecycle
     implementation libs.androidx.lifecycle.viewmodel.ktx

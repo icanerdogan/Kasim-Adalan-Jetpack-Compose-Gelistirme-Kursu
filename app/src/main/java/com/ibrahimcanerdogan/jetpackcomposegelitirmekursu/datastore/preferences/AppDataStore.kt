@@ -1,4 +1,4 @@
-package com.ibrahimcanerdogan.jetpackcomposegelitirmekursu.datastore
+package com.ibrahimcanerdogan.jetpackcomposegelitirmekursu.datastore.preferences
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -13,9 +13,9 @@
         android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"
         tools:targetApi="31">
         <activity
-            android:name=".datastore.DataStoreActivity"
+            android:name=".datastore.room.RoomExampleActivity"
             android:exported="true"
-            android:label="@string/title_activity_data_store"
+            android:label="@string/title_activity_room_example"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,16 +24,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".datastore.preferences.DataStoreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_data_store"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
+        </activity>
+        <activity
             android:name=".mvvmstructure.ExampleMVVMActivity"
             android:exported="false"
             android:label="@string/title_activity_example_mvvmactivity"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
-        </activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"></activity>
         <activity
             android:name=".material.foodapp.FoodAppActivity"
             android:exported="false"
             android:label="@string/title_activity_food_app"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
             android:name=".material.LazyStructureActivity"
             android:exported="true"
