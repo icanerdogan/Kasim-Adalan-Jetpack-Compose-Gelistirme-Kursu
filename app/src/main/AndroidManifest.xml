@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,11 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".datastore.room.RoomExampleActivity"
+            android:name=".weboperations.retrofit.RetrofitWebServiceActivity"
             android:exported="true"
-            android:label="@string/title_activity_room_example"
+            android:label="@string/title_activity_retrofit_web_service"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,16 +27,21 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".datastore.room.RoomExampleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_room_example"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
+        </activity>
+        <activity
             android:name=".datastore.preferences.DataStoreActivity"
             android:exported="false"
             android:label="@string/title_activity_data_store"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
-        </activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
         <activity
             android:name=".mvvmstructure.ExampleMVVMActivity"
             android:exported="false"
             android:label="@string/title_activity_example_mvvmactivity"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"></activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
             android:name=".material.foodapp.FoodAppActivity"
             android:exported="false"
