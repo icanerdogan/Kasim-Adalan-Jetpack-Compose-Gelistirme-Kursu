@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".weboperations.firebase.FirebaseRealtimeDatabaseActivity"
+            android:name=".compose7weboperations.firebase.FirebaseRealtimeDatabaseActivity"
             android:exported="true"
             android:label="@string/title_activity_firebase_realtime_database"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
@@ -27,77 +27,77 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".weboperations.retrofit.RetrofitWebServiceActivity"
+            android:name=".compose7weboperations.retrofit.RetrofitWebServiceActivity"
             android:exported="false"
             android:label="@string/title_activity_retrofit_web_service"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
         <activity
-            android:name=".datastore.room.RoomExampleActivity"
+            android:name=".compose6datastore.room.RoomExampleActivity"
             android:exported="false"
             android:label="@string/title_activity_room_example"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
         <activity
-            android:name=".datastore.preferences.DataStoreActivity"
+            android:name=".compose6datastore.preferences.DataStoreActivity"
             android:exported="false"
             android:label="@string/title_activity_data_store"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".mvvmstructure.ExampleMVVMActivity"
+            android:name=".compose5mvvmstructure.ExampleMVVMActivity"
             android:exported="false"
             android:label="@string/title_activity_example_mvvmactivity"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".material.foodapp.FoodAppActivity"
+            android:name=".compose4material.foodapp.FoodAppActivity"
             android:exported="false"
             android:label="@string/title_activity_food_app"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".material.LazyStructureActivity"
+            android:name=".compose4material.LazyStructureActivity"
             android:exported="true"
             android:label="@string/title_activity_lazy_structure"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".material.CardExampleActivity"
+            android:name=".compose4material.CardExampleActivity"
             android:exported="false"
             android:label="@string/title_activity_card_example"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".material.ComposeTopBarActivity"
+            android:name=".compose4material.ComposeTopBarActivity"
             android:exported="false"
             android:label="@string/title_activity_compose_material"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".widget.GuessNumberGameActivity"
+            android:name=".compose3widget.GuessNumberGameActivity"
             android:exported="false"
             android:label="@string/title_activity_guess_number_game"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".widget.MaterialComposeActivity"
+            android:name=".compose3widget.MaterialComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_material_compose"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".structure.PageStructureActivity"
+            android:name=".compose2structure.PageStructureActivity"
             android:exported="false"
             android:label="@string/title_activity_page_structure"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".design.YemekTarifUygulamasi"
+            android:name=".compose1design.YemekTarifUygulamasi"
             android:exported="false"
             android:label="@string/title_activity_yemek_tarif_uygulamasi"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".design.LoginUygulama"
+            android:name=".compose1design.LoginUygulama"
             android:exported="false"
             android:label="@string/title_activity_login_uygulama"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".design.IlhamVerUygulama"
+            android:name=".compose1design.IlhamVerUygulama"
             android:exported="false"
             android:label="@string/title_activity_ilham_ver_uygulama"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
-            android:name=".design.MainActivity"
+            android:name=".compose1design.MainActivity"
             android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
