@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767578994677",
+    "project_id": "jetpackcomposeegitim",
+    "storage_bucket": "jetpackcomposeegitim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767578994677:android:bba6fe7779a4e754d152bc",
+        "android_client_info": {
+          "package_name": "com.ibrahimcanerdogan.jetpackcomposegelitirmekursu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBikC6y3IIogNKfa54IihZBMoFSADS8HGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

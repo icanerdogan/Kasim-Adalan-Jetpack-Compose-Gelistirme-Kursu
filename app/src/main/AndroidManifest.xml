@@ -16,9 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".weboperations.retrofit.RetrofitWebServiceActivity"
+            android:name=".weboperations.firebase.FirebaseRealtimeDatabaseActivity"
             android:exported="true"
-            android:label="@string/title_activity_retrofit_web_service"
+            android:label="@string/title_activity_firebase_realtime_database"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,16 +27,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".weboperations.retrofit.RetrofitWebServiceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_retrofit_web_service"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
+        <activity
             android:name=".datastore.room.RoomExampleActivity"
             android:exported="false"
             android:label="@string/title_activity_room_example"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu">
-        </activity>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
         <activity
             android:name=".datastore.preferences.DataStoreActivity"
             android:exported="false"
             android:label="@string/title_activity_data_store"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
             android:name=".mvvmstructure.ExampleMVVMActivity"
             android:exported="false"

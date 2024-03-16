@@ -14,4 +14,6 @@
     <string name="title_activity_data_store">DataStoreActivity</string>
     <string name="title_activity_room_example">RoomExampleActivity</string>
     <string name="title_activity_retrofit_web_service">RetrofitWebServiceActivity</string>
+    <string name="title_activity_firebase_realtime_database">FirebaseRealtimeDatabaseActivity
+    </string>
 </resources>
