@@ -16,4 +16,6 @@
     <string name="title_activity_retrofit_web_service">RetrofitWebServiceActivity</string>
     <string name="title_activity_firebase_realtime_database">FirebaseRealtimeDatabaseActivity
     </string>
+    <string name="title_activity_notification_example">NotificationExampleActivity</string>
+    <string name="title_activity_work_manager_tutorial">WorkManagerTutorialActivity</string>
 </resources>

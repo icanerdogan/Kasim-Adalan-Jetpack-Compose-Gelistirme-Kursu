@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,9 +18,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".compose7weboperations.firebase.FirebaseRealtimeDatabaseActivity"
+            android:name=".compose8advancedandroid.workmanager.WorkManagerTutorialActivity"
             android:exported="true"
-            android:label="@string/title_activity_firebase_realtime_database"
+            android:label="@string/title_activity_work_manager_tutorial"
             android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,15 +29,26 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".compose8advancedandroid.notification.NotificationExampleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_notification_example"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" >
+        </activity>
+        <activity
+            android:name=".compose7weboperations.firebase.FirebaseRealtimeDatabaseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_firebase_realtime_database"
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
+        <activity
             android:name=".compose7weboperations.retrofit.RetrofitWebServiceActivity"
             android:exported="false"
             android:label="@string/title_activity_retrofit_web_service"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
             android:name=".compose6datastore.room.RoomExampleActivity"
             android:exported="false"
             android:label="@string/title_activity_room_example"
-            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu"/>
+            android:theme="@style/Theme.JetpackComposeGeliştirmeKursu" />
         <activity
             android:name=".compose6datastore.preferences.DataStoreActivity"
             android:exported="false"
